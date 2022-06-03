@@ -18,3 +18,4 @@ Implementation of Rock Paper Scissors game from [The Odin Project](https://www.t
 - How to add function to my images when there is a click --> .addEventListener('click', () => {});
 - Refactoring code
 - How to create a new branch to avoid breaking code then merge branches using Git
+![rockpaperscissorsoutput](https://user-images.githubusercontent.com/99847030/171959979-6df46f67-8136-4192-b15b-10c73d78ac96.jpg)
