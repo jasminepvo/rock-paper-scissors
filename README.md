@@ -10,7 +10,7 @@ Implementation of Rock Paper Scissors game from [The Odin Project](https://www.t
 - Use for loop to play up to 5 rounds before deciding the winner
 - Use console.log to consistently test for correct outputs
 
-## Stage 2 | Game with Simple UI
+## Stage 2 | Game with Simple UI - [Play Here](https://jasminepvo.github.io/rock-paper-scissors/)
 ### What I learned:
 - How to use selectors to target nodes in DOM with only JavaScript --> document.querySelector("") 
 - How to add element to DOM using only JavaScript with .textContent 
