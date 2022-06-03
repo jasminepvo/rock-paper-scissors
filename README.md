@@ -20,3 +20,4 @@ Implementation of Rock Paper Scissors game from [The Odin Project](https://www.t
 - How to create a new branch to avoid breaking code then merge branches using Git
 
 ##### Preview of Result 
+![Result](https://user-images.githubusercontent.com/99847030/171962421-c7f99564-3b4e-44b9-91cb-57f3c09f7b69.jpg)
