@@ -21,8 +21,8 @@ function startGame() {
 // Reset game after 5 rounds
 function resetGame() {
   winners = [];
-  document.querySelector(".playerScore").textContent = "Score: 0";
-  document.querySelector(".computerScore").textContent = "Score: 0";
+  document.querySelector(".playerScore").textContent = "Your Score: 0";
+  document.querySelector(".computerScore").textContent = "My Score: 0";
   document.querySelector(".ties").textContent = "Ties: 0";
   document.querySelector(".winner").textContent = "";
   document.querySelector(".playerChoice").textContent = "";
@@ -71,7 +71,7 @@ function updateScore() {
 function displayRound(playerChoice, computerChoice, winner) {
   // charAt grabs first letter of choice and toUpperCase returns capitalized
   document.querySelector(".playerChoice").textContent = `You chose: ${playerChoice.charAt(0).toUpperCase() + playerChoice.slice(1)}`;
-  document.querySelector(".computerChoice").textContent = `Computer chose: ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}`;
+  document.querySelector(".computerChoice").textContent = `I chose: ${computerChoice.charAt(0).toUpperCase() + computerChoice.slice(1)}`;
   displayRoundWinner(winner); 
 }
 
@@ -79,9 +79,9 @@ function displayRoundWinner(winner) {
   if (winner == "Player") {
     document.querySelector(".winner").textContent = "You win!";
   } else if (winner == "Computer") {
-    document.querySelector(".winner").textContent = "Computer wins!";
+    document.querySelector(".winner").textContent = "I win!";
   } else {
-    document.querySelector(".winner").textContent = "It's a tie, play again!";
+    document.querySelector(".winner").textContent = "It's a tie. Play again!";
   }
 }
 
@@ -90,9 +90,9 @@ function displayFinalResults() {
   let computerWins = winners.filter((item) => item == "Player").length;
  
   if (playerWins == 5){
-    document.querySelector(".winner").textContent = "YOU WIN! You won 5 times, congrats!";
+    document.querySelector(".winner").textContent = "YOU WIN! You beat me 5 times, congrats!";
   } else {
-    document.querySelector(".winner").textContent = "YOU LOSE! The computer won 5 times";
+    document.querySelector(".winner").textContent = "YOU LOSE! I beat you 5 times, sucks!";
   }
   document.querySelector(".reset").style.display = "flex";
 }

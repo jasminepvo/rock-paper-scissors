@@ -18,19 +18,18 @@ body {
     margin-bottom: 10px;
 }
 
-
 .playerImgs {
     align-items: center;
 }
 
 .pImg:hover {
     cursor: pointer;
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
   }
   .active {
-    width: 110px;
-    height: 110px;
+    width: 150px;
+    height: 150px;
   }
   
   .winner {
